@@ -1,0 +1,159 @@
+body{
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 62.5%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.container{
+  display: grid;
+  gap: 1.4rem;
+  margin: 3rem auto;
+  max-width: 1000px;
+  min-width: 300px;
+}
+
+.card{
+  position: relative;
+  padding: 1.5rem 2rem;
+  border-radius: .3rem;
+  box-shadow: rgb(211, 210, 210) 0 1px 15px;
+}
+
+.customer > img{
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  margin-right: 1rem;
+  border: .1rem solid hsl(263, 55%, 52%);
+}
+
+.quote-img{
+  position: absolute;
+  right: 1.4rem;
+  top: 1px;
+  width: 6rem;
+  height: 5.4rem;
+}
+
+.customer{
+  display: flex;
+  align-content: center;
+  position: relative;
+}
+
+h2, h3{
+  margin: 0;
+}
+
+.user-info > h2{
+  color: hsl(0, 0%, 81%);
+  font-size: .7rem;
+  font-weight: 600;
+}
+
+.user-info > h3{
+  color: hsl(215, 9%, 74%);
+  font-size: .6rem;
+  font-weight: 500;
+}
+
+h1{
+  color: white;
+  line-height: 1.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  margin: .8rem 0 1.3rem 0;
+}
+
+p{
+  color: hsl(0, 0%, 81%);
+  line-height: 1.1rem;
+  font-size: .7rem;
+}
+
+.card--one{
+  background-color: hsl(263, 55%, 52%);
+}
+.card--two{
+  background-color: hsl(217, 19%, 35%);
+}
+.card--three{
+  background-color: hsl(219, 29%, 14%);
+}
+.card--white{
+  background-color: hsl(0, 0%, 100%);
+}
+.card--white h1, .card--white h2{
+  color: hsl(219, 29%, 14%);
+}
+.card--white p{
+  color: hsl(217, 19%, 35%);
+}
+
+/* Tablet Design */
+@media screen and (min-width:658px){
+  .container{
+    display: grid;
+    /* grid-template: repeat(3, 33fr) / repeat(3, 33fr); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+  }
+  .quote-img{
+    position: absolute;
+    right: 7rem;
+    top: 1px;
+    width: 5rem;
+  }
+  .card--one{
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .card--two{
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .card--three{
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .card--white-short{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .card--white-long{
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+}
+
+/* Desktop Design */
+@media screen and (min-width:880px){
+  .container{
+    display: grid;
+    /* grid-template: repeat(2, 50fr) / repeat(4, 25fr); */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+  }
+  .card--one{
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .card--two{
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .card--three{
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .card--white-short{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .card--white-long{
+    grid-column: 4/4;
+    grid-row: 1/3;
+  }
+}

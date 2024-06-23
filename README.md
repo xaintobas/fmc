@@ -7,6 +7,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 - [Projects](#overview)
   - [QR Code Component](#qr-code-component)
   - [Recipe Page](#recipe-page)
+  - [Testimonial](#testimonial)
 - [Author](#author)
 
 ### QR Code Component
@@ -16,13 +17,13 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 ### Recipe Page
 
-<img src="./recipe-page/screenshot.png" alt="Qr Code Component" width="400">
-- Live Site: [QR Code Component](https://xaintobas.github.io/fmc/qr-code/)
+<img src="./recipe-page/screenshot.png" alt="Recipe Page" width="400">
+- Live Site: [Recipe Page](https://xaintobas.github.io/fmc/recipe-page/)
 
-### Recipe Page
+### Testimonial
 
-<img src="./recipe-page/screenshot.png" alt="Qr Code Component" width="400">
-- Live Site: [QR Code Component](https://xaintobas.github.io/fmc/qr-code/)
+<img src="./testimonial/screenshot.png" alt="Testimonial" width="400">
+- Live Site: [Testimonial](https://xaintobas.github.io/fmc/testimonial/)
 
 ## Author
 
