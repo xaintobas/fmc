@@ -1,4 +1,5 @@
 ![](./screenshot.png)
+
 This is my solution to the QR code component challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### Built with
@@ -19,6 +20,6 @@ In future projects, I would want to focus more on building advanced layouts usin
 
 ## Author
 
-- GitHub - [https://github.com/xaintobas]
+- GitHub - https://github.com/xaintobas
 - Frontend Mentor - https://www.frontendmentor.io/profile/xaintobas
 - Twitter - https://x.com/xaint_obas

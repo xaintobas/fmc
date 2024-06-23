@@ -4,17 +4,16 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+- [Projects](#overview)
+  - [QR Code Component](#QR-Code-Component)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ### QR Code Component
+
+## QR Code Component
 
 ![](./qr-code/screenshot.png)
 
