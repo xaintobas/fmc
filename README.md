@@ -12,10 +12,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 - [Author](#author)
 
 ### QR Code Component
-
-## QR Code Component
-
-![](./qr-code/screenshot.png)
+<img src="./qr-code/screenshot.png" alt="Qr Code Component" width="300">
 
 - Live Site: [QR Code Component](https://xaintobas.github.io/fmc/qr-code/)
 
