@@ -33,6 +33,6 @@ In future projects, I would want to focus more on building advanced layouts usin
 
 ## Author
 
-- GitHub - [https://xaintobas.github.io/qrcode/](https://xaintobas.github.io/qrcode/)
-- Frontend Mentor - [https://www.frontendmentor.io/profile/xaintobas](https://www.frontendmentor.io/profile/xaintobas)
-- x.com - [https://x.com/xaint_obas](https://x.com/xaint_obas)
+- Website - Stephen [https://xaintobas.github.io/qrcode/]
+- Frontend Mentor - https://www.frontendmentor.io/profile/xaintobas
+- Twitter - https://x.com/xaint_obas
