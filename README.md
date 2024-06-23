@@ -8,6 +8,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [QR Code Component](#qr-code-component)
   - [Recipe Page](#recipe-page)
   - [Testimonial](#testimonial)
+  - [Social](#social)
 - [Author](#author)
 
 ### QR Code Component
@@ -24,6 +25,11 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 <img src="./testimonial/screenshot.png" alt="Testimonial" width="400">
 - Live Site: [Testimonial](https://xaintobas.github.io/fmc/testimonial/)
+
+### Social
+
+<img src="./social/screenshot.png" alt="Testimonial" width="400">
+- Live Site: [Social](https://xaintobas.github.io/fmc/social/)
 
 ## Author
 
