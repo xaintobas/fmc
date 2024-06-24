@@ -195,7 +195,11 @@ img{
   background: var(--cobalt-blue);
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:600px) {
+
+  .attribution { 
+    font-size: 1.8rem;
+  }
 
   main{
     height: 100vh;
@@ -214,22 +218,51 @@ img{
 
   .result{
     height: 100%;
-    min-width: 200px;
-    max-width: 250px;
+    max-width: 330px;
+    min-width: 310px;
     border-radius: 2rem 2rem;
-    padding: 1.5rem 2rem 3rem 2rem;
+    padding: 3rem 2rem 5rem 2rem;
   }
   
   .summary{
     height: 100%;
-    min-width: 250px;
-    padding: 4rem 2rem;
+    min-width: 310px;
+    padding: 2rem 2rem;
+  }
+
+  .summary__section{
+    padding: 1.5rem 1.3rem;
+    margin: 1.5rem auto;
+    font-size: 1.7rem;
   }
 
   .result__score{
-    width: 14rem;
-    height: 14rem;
-    border-radius: 8rem;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 10rem;
+  }
+
+  .btn{
+    font-size: 1.7rem;
+  }
+
+  
+  /* Typography */
+
+  h1{
+    font-size: 7rem;
+  }
+
+  h2{
+    font-size: 2.3rem;
+  }
+
+  h3{
+    font-size: 2.4rem;
+  }
+
+  p{
+    font-size: 2rem;
   }
 }
 
