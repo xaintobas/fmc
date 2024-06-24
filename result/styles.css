@@ -42,6 +42,7 @@ body{
 .attribution { 
   font-size: 1.3rem; 
   text-align: center; 
+  margin: 3rem auto;
 }
 
 .attribution a { 
