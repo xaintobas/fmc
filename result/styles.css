@@ -192,7 +192,7 @@ img{
 }
 
 .btn:hover{
-  background: var(--cobalt-blue);
+  background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));;
 }
 
 @media screen and (min-width:600px) {
@@ -263,6 +263,10 @@ img{
 
   p{
     font-size: 2rem;
+  }
+
+  img{
+    width: 2.3rem;
   }
 }
 
