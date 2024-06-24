@@ -35,7 +35,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 ### Result
 
 <img src="./result/screenshot.png" alt="Result" width="400">
-- Live Site: [Social](https://xaintobas.github.io/fmc/result/)
+- Live Site: [Result](https://xaintobas.github.io/fmc/result/)
 
 ## Author
 
