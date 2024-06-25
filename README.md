@@ -41,7 +41,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 ### Product
 
 <img src="./product/screenshot.png" alt="Product" width="400">
-- Live Site: [Result](https://xaintobas.github.io/fmc/product/)
+- Live Site: [Product](https://xaintobas.github.io/fmc/product/)
 
 ## Author
 
