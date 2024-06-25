@@ -39,12 +39,14 @@ main{
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  background: var(--Cream);
 }
 
 .product {
   max-width: 375px;
   border-radius: 1.2rem;
   overflow: hidden;
+  background: var(--White);
 }
 
 .card{
@@ -88,6 +90,7 @@ p{
 .product__price {
   display: flex;
   align-items: center;
+  gap: 2rem;
 }
 
 .product__price-amt{
@@ -95,7 +98,6 @@ p{
   font-family: "Fraunces", serif;
   font-weight: 700;
   color: var(--Dark-cyan);
-  margin-right: 2rem;
 }
 
 .product__price-cancelled{
@@ -140,6 +142,7 @@ p{
   .product{
     display: flex;
     max-width: 700px;
+    min-width: 600px;
   }
 
   .product__image, 
