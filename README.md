@@ -10,6 +10,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Testimonial](#testimonial)
   - [Social](#social)
   - [Result](#result)
+  - [Product](#product)
 - [Author](#author)
 
 ### QR Code Component
@@ -36,6 +37,11 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 <img src="./result/screenshot.png" alt="Result" width="400">
 - Live Site: [Result](https://xaintobas.github.io/fmc/result/)
+
+### Product
+
+<img src="./product/screenshot.png" alt="Product" width="400">
+- Live Site: [Result](https://xaintobas.github.io/fmc/product/)
 
 ## Author
 
