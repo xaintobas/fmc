@@ -1,0 +1,154 @@
+/* 
+### Primary
+
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+
+### Neutral
+
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+
+*/
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+:root{
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body{
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  margin: 3rem 1rem;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  max-width: 375px;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.card{
+  box-shadow: 0 0 30px 1px rgb(224, 224, 224);
+}
+
+.product__image img {
+  width: 100%;
+}
+
+.product__details{
+  padding: 1rem 2.5rem 3rem 2.5rem;
+}
+
+.product__category{
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .6rem;
+  color: var(--Dark-grayish-blue);
+}
+
+.product__name{
+  font-family: "Fraunces", serif;
+  font-size: 3.2rem;
+  line-height: 3.5rem;
+  margin: 0;
+}
+
+p{
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: var(--Dark-grayish-blue);
+  font-weight: 500;
+}
+
+.product__price {
+  display: flex;
+  align-items: center;
+}
+
+.product__price-amt{
+  font-size: 3.2rem;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: var(--Dark-cyan);
+  margin: 0 1.5rem 1.5rem 0;
+  
+  display: inline-block;
+}
+
+.product__price-cancelled{
+  font-size: 1.4rem;
+  text-decoration: line-through;
+  color: var(--Dark-grayish-blue);
+  display: inline-block;
+}
+
+.product__details a {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--Dark-cyan);
+  padding: 1.3rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--White);
+  transition: all .5s;
+}
+
+.product__details a:hover {
+  background: hsl(158, 36%, 22%);
+}
+
+.product__details img {
+  margin-right: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
