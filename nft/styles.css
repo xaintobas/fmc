@@ -66,6 +66,9 @@ main {
   border-radius: 1rem;
 }
 
+.card > img:hover {
+}
+
 .creator {
   display: flex;
   gap: 1.5rem;
