@@ -37,7 +37,7 @@ p{
   color: var(--Soft-blue);
   display: inline-block;
   margin: 0;
-  line-height: 2rem;
+  line-height: 2.6rem;
 }
 
 main {
@@ -89,8 +89,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
-  padding: 1.8rem 0
+  padding: 1.3rem 0
 }
 
 .launch__icon{
@@ -104,29 +103,31 @@ main {
 }
 
 .icon {
-  height:20px;
-
+  height:18px;
+  align-self: center;
 }
 
-
-
-
-
-
-
 .attribution { 
-  font-size: 1.3rem; 
+  font-size: 1.4rem; 
   text-align: center; 
   color: var(--White);
 }
-    
-.attribution a { 
-  color: var(--Cyan);
 
+.attribution a {
+  color: rgb(186, 183, 183);
+}
+    
+a { 
+  color: var(--White);
   text-decoration: none;
+  transition: all .4s;
 }
 
 
+a:hover { 
+  color: var(--Cyan);
+  text-decoration: none;
+}
 
 
 
