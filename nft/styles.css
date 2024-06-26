@@ -117,7 +117,8 @@ main {
 }
 
 .attribution a {
-  color: rgb(186, 183, 183);
+  color: hsl(178, 69%, 44%);
+  font-weight: 700;
 }
     
 a { 
