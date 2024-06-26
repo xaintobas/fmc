@@ -136,7 +136,11 @@ main {
   color: hsl(178, 69%, 44%);
   font-weight: 700;
 }
-    
+
+.attribution a:hover {
+  color: hsl(178, 100%, 77%);
+}
+
 a { 
   color: var(--White);
   text-decoration: none;
