@@ -142,29 +142,9 @@ a {
   transition: all .4s;
 }
 
-
 a:hover { 
   color: var(--Cyan);
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
