@@ -20,8 +20,8 @@ html {
 
 body {
   font-family: "Outfit", sans-serif;
-  margin: 0 auto;
-  height: 100vh;
+  background: var(--Very-dark-blue-main-BG);
+  
 }
 
 /* Typography */
@@ -41,32 +41,49 @@ p{
 }
 
 main {
-  background: var(--Very-dark-blue-main-BG);
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  height: 100%;
+  justify-content: center;
+  height: 100vh;
   padding: 2rem;
 }
 
 /* Card */
 
 .card {
+  margin: 0 auto;
   box-shadow: 0 0 30px 20px rgba(7, 31, 55, 0.432);
   padding: 2.5rem;
   border-radius: 2rem;
   background: var(--Very-dark-blue-card-BG);
   margin-bottom: 2.5rem;
   max-width: 340px;
+  height: auto;
 }
 
-.card > img {
+.card__image > img {
   width: 100%;
   border-radius: 1rem;
 }
 
-.card > img:hover {
+.card__image {
+  position: relative;
+  cursor: pointer;
+}
+
+.card__image::before {
+  content: "";
+  background: url(images/icon-view.svg) center no-repeat hsla(178, 100%, 50%, 0.516);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.card__image:hover::before {
+  opacity: 1;
 }
 
 .creator {
