@@ -11,6 +11,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Social](#social)
   - [Result](#result)
   - [Product](#product)
+  - [NFT](#nft)
 - [Author](#author)
 
 ### QR Code Component
@@ -42,6 +43,11 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 <img src="./product/screenshot.png" alt="Product" width="400">
 - Live Site: [Product](https://xaintobas.github.io/fmc/product/)
+
+### NFT
+
+<img src="./nft/screenshot.png" alt="NFT" width="400">
+- Live Site: [NFT](https://xaintobas.github.io/fmc/nft/)
 
 ## Author
 
