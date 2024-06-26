@@ -1,28 +1,112 @@
-/* 
-## Colors
-
-### Primary
-
-- Soft blue: hsl(215, 51%, 70%)
-- Cyan: hsl(178, 100%, 50%)
-
-### Neutral
-
-- Very dark blue (main BG): hsl(217, 54%, 11%)
-- Very dark blue (card BG): hsl(216, 50%, 16%)
-- Very dark blue (line): hsl(215, 32%, 27%)
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-*/
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
 
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 62.5%;
+}
 
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0 auto;
+  height: 100vh;
+}
 
+/* Typography */
 
+h1{
+  font-size: 2rem;
+  color: var(--White);
+  font-weight: 600;
+}
 
+p{
+  font-size: 1.6rem;
+  color: var(--Soft-blue);
+  display: inline-block;
+  margin: 0;
+  line-height: 2rem;
+}
+
+main {
+  background: var(--Very-dark-blue-main-BG);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 2rem;
+}
+
+/* Card */
+
+.card {
+  box-shadow: 0 0 30px 20px rgba(7, 31, 55, 0.432);
+  padding: 2.5rem;
+  border-radius: 2rem;
+  background: var(--Very-dark-blue-card-BG);
+  margin-bottom: 2.5rem;
+  max-width: 340px;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.creator {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  border-top: 1px solid hsla(215, 52%, 70%, 0.294);
+  padding-top: 1.8rem;
+}
+
+.creator > img{
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 2px solid var(--Soft-blue);
+  border-radius: 3rem;
+}
+
+.creator__name {
+  color: var(--White);
+}
+
+.launch{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.8rem 0
+}
+
+.launch__icon{
+  display: flex;
+  gap: 1rem;
+}
+
+.launch__price {
+  color: var(--Cyan);
+  font-weight: 500;
+}
+
+.icon {
+  height:20px;
+
+}
 
 
 
@@ -31,12 +115,15 @@
 
 
 .attribution { 
-  font-size: 11px; 
+  font-size: 1.3rem; 
   text-align: center; 
+  color: var(--White);
 }
     
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: var(--Cyan);
+
+  text-decoration: none;
 }
 
 
