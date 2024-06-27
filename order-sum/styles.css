@@ -1,25 +1,162 @@
-/* 
-
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
-
-### Neutral
-
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
-
-*/
-
-
-
-
-
-
-
-.red-hat {
-  font-family: "Red Hat Display", sans-serif;
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --link-hover: hsla(245, 75%, 52%, 0.609);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: var(--pale-blue);
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+h1, h2 {
+  color: black;
+  font-weight: 900;
+}
+
+p {
+  color: var(--Desaturated-blu);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 2rem;
+  overflow: hidden;
+  min-width: 300px;
+  max-width: 375px;
+  box-shadow: 0px 15px 20px 10px rgba(222, 220, 220, 0.471);
+  margin: 0 1rem;
+}
+
+.order-details {
+  padding: 2.5rem 2.5rem .5rem 2.5rem;
+  flex-direction: column;
+}
+
+.hero {
+  height: 170px;
+  width: 100%;
+}
+
+h1 {
+  padding-bottom: 1.6rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--Desaturated-blue);
+}
+
+.order__summary {
+  text-align: center;
+  line-height: 2.5rem;
+  padding: 0 1.5rem;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--very-pale-blue);
+  padding: 1.5rem 1.5rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+
+.plan__details {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.plan a {
+  color: var(--bright-blue);
+  text-decoration: underline;
+}
+
+.plan a:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+
+.btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: all .5s;
+}
+
+.primary {
+  color: white;
+  background: var(--bright-blue);
+  box-shadow: 0px 20px 30px 10px hwb(211 34% 55% / 0.266);
+}
+
+.primary:hover {
+  background: var(--link-hover);
+}
+
+.transparent {
+  color: var(--Desaturated-blue);
+  font-weight: 900;
+}
+
+.transparent:hover {
+  color: var(--dark-blue);
+}
+
+
+
+
+
+.attribution { 
+  font-size: 1.6rem; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}

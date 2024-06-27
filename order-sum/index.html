@@ -2,37 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Order summary card</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+  <main>
+    <div class="card">
+      <img class="hero" src="images/illustration-hero.svg" alt="">
+      <div class="order-details">
+        <h1>Order Summary</h1>
+        <p class="order__summary">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        <div class="plan">
+          <div class="plan__details">
+            <img src="images/icon-music.svg" alt="">
+            <div class="plan__pricing">
+              <h2 class="plan__type">Annual Plan</h2>
+            <p class="plan__price grey">$59.99/year</p>
+            </div>
+          </div>
+          <a href="">Change</a>
+        </div>
+        <a class="btn primary" href="">Proceed to Payment</a>
+        <a class="btn transparent grey" href=""> Cancel Order</a>
+      </div>
+    </div>
 
-  Order Summary
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://x.com/xaint_obas">Stephen</a>.
+    </div>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://x.com/xaint_obas">Stephen</a>.
-  </div>
-
+  </main>
 </body>
 </html>
