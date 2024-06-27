@@ -12,6 +12,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Result](#result)
   - [Product](#product)
   - [NFT](#nft)
+  - [Order Summary](#order-summary)
 - [Author](#author)
 
 ### QR Code Component
@@ -48,6 +49,11 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 <img src="./nft/screenshot.png" alt="NFT" width="400">
 - Live Site: [NFT](https://xaintobas.github.io/fmc/nft/)
+
+### Order Summary
+
+<img src="./order-sum/screenshot.png" alt="Order Summary" width="400">
+- Live Site: [Order Summary](https://xaintobas.github.io/fmc/order-sum/)
 
 ## Author
 
