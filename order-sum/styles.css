@@ -19,7 +19,17 @@ html {
 
 body {
   font-family: "Red Hat Display", sans-serif;
-  background: var(--pale-blue);
+  background: url(images/pattern-background-mobile.svg);
+  background-color: hsla(225, 100%, 94%, 0.672);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (min-width:500px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+  }
+    
 }
 
 h1, h2, p {
