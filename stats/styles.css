@@ -191,5 +191,9 @@ main {
   color: hsl(0, 0%, 100%); 
   font-weight: 600;
   text-decoration: none;
+  transition: all .5s;
 }
 
+.attribution a:hover { 
+  color: var(--accent);
+}
