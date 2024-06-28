@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <main>
+    <div class="card">
+      <div class="section-one">
+        <picture>
+          <source srcset="images/image-header-desktop.jpg" media="(min-width:700px)">          
+          <source srcset="images/image-header-mobile.jpg" media="(max-width:399px)">
+
+          <img src="images/image-header-mobile.jpg" alt="">
+        </picture>
+        <div class="overlay"></div>
+      </div>
+
+      <div class="section-two">
+        <h1>Get <span class="insights">insights</span> that help your business grow.</h1>
+        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <div class="stats">
+          <div class="stats__one">
+            <h2>10k+</h2>
+            <h3>companies</h3>
+          </div>
+          <div class="stats__one">
+            <h2>314</h2>
+            <h3>templates</h3>
+          </div>
+          <div class="stats__one">
+            <h2>12M+</h2>
+            <h3>queries</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://x.com/xaint_obas">Stephen</a>.
+    </div>
+  </main>
+
+ 
+</body>
+</html>
