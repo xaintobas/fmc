@@ -63,6 +63,6 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 ## Author
 
-- GitHub - [https://github.com/xaintobas](https://github.com/xaintobas)
+- GitHub - [https://github.com/xaintobas](https://xaintobas.github.io/qrcode/)
 - Frontend Mentor - [https://www.frontendmentor.io/profile/xaintobas](https://www.frontendmentor.io/profile/xaintobas)
 - x.com - [https://x.com/xaint_obas](https://x.com/xaint_obas)
