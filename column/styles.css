@@ -57,6 +57,7 @@ img {
   transition: all .5s;
   color: inherit;
   font-size: 1.3rem;
+  text-align: center;
 }
 
 .btn:hover {
@@ -111,7 +112,36 @@ main {
   color: var(--dark-cyan);
 }
 
+@media screen and (min-width:768px) {
+  body {
+    height: 100vh;
+  }
 
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);  
+    min-width: 850px;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .btn {
+    margin: 5rem 0 0 0;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+}
 
 
 
