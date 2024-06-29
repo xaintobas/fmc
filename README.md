@@ -15,6 +15,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Order Summary](#order-summary)
   - [Stats](#stats)
   - [Coulums](#columns)
+  - [Profile Card](#profile-card)
 - [Author](#author)
 
 ### QR Code Component
@@ -66,6 +67,11 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 <img src="./column/screenshot.png" alt="Columns Component" width="400">
 - Live Site: [Columns](https://xaintobas.github.io/fmc/column/)
+
+### Profile Card
+
+<img src="./profile-card/screenshot.png" alt="Profile Card Component" width="400">
+- Live Site: [Profile Card](https://xaintobas.github.io/fmc/profile-card/)
 
 ## Author
 
