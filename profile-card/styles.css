@@ -1,16 +1,128 @@
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+:root {
+  --cyan: hsl(185, 75%, 39%);
+  --desaturated-blue: hsl(229, 23%, 23%);
+  --grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
 
-    /* 
-    
-    Dark cyan: hsl(185, 75%, 39%)
-Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-### Neutral
+html {
+  font-size: 62.5%;
+}
 
-Dark gray: hsl(0, 0%, 59%)
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Kumbh Sans", sans-serif;
+  background: url(images/bg-pattern-top.svg) top left no-repeat, no-repeat, url(images/bg-pattern-bottom.svg) bottom right no-repeat;
+  background-size: 50% 50%, 50% 50%; 
+  background-color: var(--cyan);
+}
 
-font-family: "Kumbh Sans", sans-serif;
+main {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
 
-*/
+.card {
+  box-shadow: 0px 3px 30px 0px rgb(148, 148, 148);
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.profile {
+  background-color: white;
+  min-width: 300px;
+}
+
+.bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-bg {
+  width: 100%;
+}
+
+.profile-pic {
+  width: 100px;
+  border-radius: 75px;
+  margin-top: -50px;
+  border: 5px solid white;
+}
+
+.profile-info {
+  text-align: center;
+  padding: 2rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.age {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: .5rem;
+}
+
+.heading {
+  color: black;
+}
+
+.location {
+  font-size: 1.5rem;
+}
+
+.profile__stats {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 2.5rem;
+  border-top: 2px solid hsla(0, 0%, 59%, 0.211);
+}
+
+.subheading {
+  font-size: 1.2rem;
+  margin: .5rem 0 0 0;
+  letter-spacing: .2rem;
+}
+
+.location, .age, .subheading {
+  color: hsl(0, 0%, 55%);
+}
+
+.attribution { 
+  font-size: 1.3rem; 
+  text-align: center;
+  color: whitesmoke;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
