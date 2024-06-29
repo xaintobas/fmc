@@ -22,8 +22,10 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: "Kumbh Sans", sans-serif;
-  background: url(images/bg-pattern-top.svg) top left no-repeat, no-repeat, url(images/bg-pattern-bottom.svg) bottom right no-repeat;
-  background-size: 50% 50%, 50% 50%; 
+  background: url(images/bg-pattern-top.svg) no-repeat, url(images/bg-pattern-bottom.svg) no-repeat;
+  background-position-x: -20rem, 22rem;
+  background-position-y: -50rem, 38rem;
+  background-size: 100% 100%, 100% 100%; 
   background-color: var(--cyan);
 }
 
@@ -44,7 +46,8 @@ main {
 
 .profile {
   background-color: white;
-  min-width: 300px;
+  min-width: 280px;
+  max-width: 320px;
 }
 
 .bg {
@@ -66,7 +69,7 @@ main {
 
 .profile-info {
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .heading {
@@ -121,7 +124,13 @@ main {
 }
 
 
-
+@media screen and (min-width: 768px) {
+  body {
+    background-position-x:-60rem, 30rem;
+    background-position-y:-30rem, 50rem;
+    background-size: 100% 100%, 100% 100%; 
+  }
+}
 
 
 
