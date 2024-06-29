@@ -7,11 +7,12 @@ This is my solution to the 3-column preview card component challenge on Frontend
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grids
 - Mobile-first workflow
 
 ### What I learned
 
-After completing this challenge, I have some ideas on using Flexbox.
+After completing this challenge, I have some ideas on using Flexbox and CSS Grids.
 I also learned the justify-content and align-items properties and how they really function.
 
 ### Continued development
