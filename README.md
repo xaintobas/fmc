@@ -19,7 +19,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Chat App](#chat-app)
   - [Four Card](#four-card)
   - [Single Price](#single-price)
-  - [Profile Card](#profile-card)
+  - [Social Proof](#social-proof)
 - [Author](#author)
 
 ### QR Code Component
