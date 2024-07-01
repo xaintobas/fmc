@@ -16,6 +16,10 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Stats](#stats)
   - [Coulums](#columns)
   - [Profile Card](#profile-card)
+  - [Chat App](#chat-app)
+  - [Four Card](#four-card)
+  - [Profile Card](#profile-card)
+  - [Profile Card](#profile-card)
 - [Author](#author)
 
 ### QR Code Component
