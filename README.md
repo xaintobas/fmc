@@ -18,7 +18,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Profile Card](#profile-card)
   - [Chat App](#chat-app)
   - [Four Card](#four-card)
-  - [Profile Card](#profile-card)
+  - [Single Price](#single-price)
   - [Profile Card](#profile-card)
 - [Author](#author)
 
