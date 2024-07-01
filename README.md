@@ -77,6 +77,25 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 <img src="./profile-card/screenshot.png" alt="Profile Card Component" width="400">
 - Live Site: [Profile Card](https://xaintobas.github.io/fmc/profile-card/)
 
+### Chat App
+
+<img src="./chat-app/screenshot.png" alt="Chat App Component" width="400">
+- Live Site: [Chat App](https://xaintobas.github.io/fmc/chat-app/)
+
+### Four Card
+
+<img src="./four-card/screenshot.png" alt="Four Card Component" width="400">
+- Live Site: [Four Card](https://xaintobas.github.io/fmc/four-card/)
+
+### Single Price
+
+<img src="./single-price/screenshot.png" alt="Single Price Component" width="400">
+- Live Site: [Single Price](https://xaintobas.github.io/fmc/single-price/)
+
+### Social Proof
+
+<img src="./social-proof/screenshot.png" alt="Social Proof Component" width="400">
+- Live Site: [Social Proof](https://xaintobas.github.io/fmc/social-proof/)
 ## Author
 
 - GitHub - [https://github.com/xaintobas](https://xaintobas.github.io/qrcode/)
