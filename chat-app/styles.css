@@ -1,5 +1,13 @@
 :root {
-  
+  --Light-Magenta: hsl(293, 100%, 63%);
+  --Light-Violet: hsl(264, 100%, 61%);;
+
+  --White: hsl(0, 0%, 100%);
+  --Light-Grayish-Violet-app-background: hsl(0, 0%, 89%);
+  --Very-Dark-Desaturated-Violet-submit-button-background: hsl(271, 36%, 24%);
+  --Very-Light-Magenta-radio-button-outline: hsl(289, 100%, 72%);
+
+  --gradient-bg: linear-gradient(to left, var(--Light-Magenta), var(--Light-Violet));
 }
 
 
@@ -24,7 +32,7 @@ p {
 }
 
 .card {
-  box-shadow: 0px 10px 30px gray;
+  box-shadow: 0px 10px 30px rgba(128, 128, 128, 0.344);
 }
 
 .phone {
@@ -33,7 +41,7 @@ p {
 }
 
 .phone__header {
-  background-color: blueviolet;
+  background: var(--gradient-bg);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -89,7 +97,43 @@ p {
 }
 
 .phone__body {
+  padding: 2rem;
+  background-color: hsl(0, 4%, 91%);
+  border-radius: 0rem  0rem 3rem 3rem;
+}
 
+.chat-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-left {
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+.chat{
+  width: 65%;
+  padding: 1.1rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  margin: .4rem 0;
+}
+
+.message-right {
+  color: rgb(98, 0, 128);
+  border-radius: 1rem 1rem 1rem 0rem;
+  background-color: hsla(292, 26%, 83%, 0.581);
+  font-weight: 500;
+}
+
+.message-left {
+  color: var(--Very-Dark-Desaturated-Violet-submit-button-background);
+  border-radius: 1rem 1rem 0rem 1rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  font-weight: 500;
 }
 
 
@@ -100,6 +144,42 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.flex-box{
+  display: flex;
+  width: 100vw;
+  width: 65%;
+}
+
+.flex-box2{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 65%;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+}
+
+.box1{
+  background-color: dodgerblue;
+}
+
+.box2{
+  background-color: tomato;
+}
 
 
 
