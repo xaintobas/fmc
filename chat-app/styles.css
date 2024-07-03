@@ -8,6 +8,7 @@
   --Very-Light-Magenta-radio-button-outline: hsl(289, 100%, 72%);
 
   --gradient-bg: linear-gradient(to left, var(--Light-Magenta), var(--Light-Violet));
+  --gradient-bg-right: linear-gradient(to right, var(--Light-Magenta), var(--Light-Violet));
 }
 
 
