@@ -34,6 +34,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
+  min-width: 350px;
 }
 
 p {
@@ -221,10 +222,11 @@ input {
 }
 
 article {
-  margin-top: 4rem;
+  margin: 4rem 3rem;
   text-align: center;
   min-width: 360px;
   max-width: 360px;
+
 }
 
 h1 {
@@ -233,7 +235,7 @@ h1 {
 
 article p{
   font-size: 1.8rem;
-  line-height: 3rem;
+  line-height: 3.2rem;
   color: rgb(141, 143, 143);
 }
 
@@ -251,7 +253,9 @@ article p{
 }
 
 
-
+@media screen and (min-width:568px) {
+  
+}
 
 
 
