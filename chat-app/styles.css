@@ -287,7 +287,7 @@ article p{
   }
 
   .bg {
-    height: 90%;
+    height: 85%;
     width: 30%;
     border-radius: 0rem 0rem 50rem 50rem;
     top: 0;
@@ -296,11 +296,6 @@ article p{
     left: 0;
   }
 }
-
-
-
-
-
 
 .attribution { 
   font-size: 1.6rem; 
