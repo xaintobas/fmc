@@ -24,11 +24,12 @@ html {
 body{
   margin: 0;
   position: relative;
+  background-color: var(--Light-Grayish-Violet-app-background);
 }
 
 main {
   font-family: "Rubik", sans-serif;
-  background-color: var(--Light-Grayish-Violet-app-background);
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,6 +69,7 @@ a {
   min-width: 350px;
   max-width: 370px;
   overflow: hidden;
+  margin: 2rem;
   z-index: 3;
 }
 
@@ -222,7 +224,7 @@ input {
 }
 
 article {
-  margin: 4rem 3rem;
+  padding: 4rem 3rem;
   text-align: center;
   min-width: 360px;
   max-width: 360px;
@@ -253,8 +255,46 @@ article p{
 }
 
 
-@media screen and (min-width:568px) {
+@media screen and (min-width:768px) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  article {
+    margin-left: 5rem;
+    text-align: left;
+    min-width: 570px;
   
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  article p{
+    font-size: 1.8rem;
+  }
+
+  .bg {
+    height: 90%;
+    width: 30%;
+    border-radius: 0rem 0rem 50rem 50rem;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+  }
 }
 
 
