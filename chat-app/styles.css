@@ -129,9 +129,7 @@ a {
 }
 
 .left.chat__item{
-  background-color: hsla(292, 26%, 83%, 0.581);
   border-radius: 1rem 1rem 1rem 0rem;
-  color: rgb(98, 0, 128);
 }
 
 .right {
@@ -140,9 +138,17 @@ a {
 }
 
 .right.chat__item {
-  background-color: rgb(255, 255, 255);
   border-radius: 1rem 1rem 0rem 1rem;
+}
+
+.right-chat {
+  background-color: rgb(255, 255, 255);
   color: var(--Very-Dark-Desaturated-Violet-submit-button-background);
+}
+
+.left-chat {
+  background-color: hsla(292, 26%, 83%, 0.581);
+  color: rgb(98, 0, 128);
 }
 
 .message {
@@ -160,19 +166,29 @@ a {
 }
 
 .audio {
-  background-color: var(--gradient-bg-right);
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-width: 70%;
 }
 
-.audio__item {
-  display: flex;
-  align-items: center;
+.audio-chat {
+  background: var(--gradient-bg-right);
+  color: rgb(255, 255, 255);
 }
 
 
+.audio__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.audio__item img {
+  width: 20px;
+  fill:red;
+}
 
 
 
