@@ -171,8 +171,9 @@ a {
   gap: 1rem;
 }
 
-.message img {
+.chat__image {
   width: 60px;
+  height: 60px;
   border-radius: 1.3rem;
 }
 
