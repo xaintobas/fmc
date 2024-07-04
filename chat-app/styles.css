@@ -119,6 +119,7 @@ a {
 .phone__body {
   padding: 2rem 1rem;
   background-color: hsl(0, 4%, 91%);
+  width: 100%;
 }
 
 .chat {
