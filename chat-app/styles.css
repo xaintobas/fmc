@@ -11,9 +11,6 @@
   --gradient-bg-right: linear-gradient(to right, var(--Light-Magenta), var(--Light-Violet));
 }
 
-
-
-
 *, 
 *::after, 
 *::before {
@@ -24,9 +21,21 @@ html {
   font-size: 62.5%;
 }
 
-body {
+body{
+  margin: 0;
+  position: relative;
+  min-width: 450px;
+  max-width: 600px;
+}
+
+main {
   font-family: "Rubik", sans-serif;
-  background-color: tomato;
+  background-color: var(--Light-Grayish-Violet-app-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
 }
 
 p {
@@ -38,12 +47,12 @@ a {
 }
 
 .card {
-  box-shadow: 0px 10px 30px rgba(128, 128, 128, 0.344);
+  box-shadow: 0px 30px 30px rgba(128, 128, 128, 0.344);
 }
 
 .white__phone-header {
   position: absolute;
-  background-color: white;
+  background-color: whitesmoke;
   margin: 0 auto;
   width: 20rem;
   height: 3.5rem;
@@ -60,6 +69,7 @@ a {
   min-width: 350px;
   max-width: 370px;
   overflow: hidden;
+  z-index: 3;
 }
 
 .phone__header {
@@ -165,42 +175,81 @@ a {
   border-radius: 1.3rem;
 }
 
-.audio {
+.plan {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-width: 70%;
 }
 
-.audio-chat {
+.plan-chat {
   background: var(--gradient-bg-right);
-  color: rgb(255, 255, 255);
+  color: rgb(231, 231, 231);
 }
 
 
-.audio__item {
+.plan__item {
   display: flex;
   align-items: center;
   gap: 1rem;
   
 }
 
-.audio__item img {
+.plan__item img {
   width: 20px;
-  fill:red;
+  stroke: rgb(220, 217, 217);
 }
 
+.price {
+  font-weight: 600;
+  font-size: 2rem;
+}
 
+.input__container {
+  background-color: white;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 0 0;
+  padding: .7rem;
+}
 
+input {
+  border: none;
+  color: rgb(72, 72, 72);
+  outline: none;
+  margin-left: 1.6rem;
+  width: 75%;
+}
 
+article {
+  margin-top: 4rem;
+  text-align: center;
+  min-width: 380px;
+  max-width: 400px;
+}
 
+h1 {
+  font-size: 3.5rem;
+}
 
+article p{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
 
-
-
-
-
-
+.bg {
+  position: absolute;
+  height: 60%;
+  width: 300px;
+  background: linear-gradient(to left, var(--Light-Magenta), var(--Light-Violet));;
+  z-index: 1;
+  border-radius: 0rem 0rem 40rem 0rem;
+  top: 0;
+  bottom:0;
+  right: 0;
+  left: 0;
+}
 
 
 
@@ -211,11 +260,14 @@ a {
 
 
 .attribution { 
-  font-size: 11px; 
-  text-align: center; 
+  font-size: 1.4rem; 
+  text-align: center;
+  margin: 2rem;
 }
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+  font-weight: 600;
 }
 
