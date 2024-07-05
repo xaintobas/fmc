@@ -20,6 +20,7 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Four Card](#four-card)
   - [Single Price](#single-price)
   - [Social Proof](#social-proof)
+  - [Blog Card](#blog-card)
 - [Author](#author)
 
 ### QR Code Component
@@ -96,6 +97,12 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 <img src="./social-proof/screenshot.png" alt="Social Proof Component" width="400">
 - Live Site: [Social Proof](https://xaintobas.github.io/fmc/social-proof/)
+
+### Blog Card
+
+<img src="./blog-card/screenshot.png" alt="Blog Card Component" width="400">
+- Live Site: [Blog Card](https://xaintobas.github.io/fmc/blog-card/)
+
 ## Author
 
 - GitHub - [https://github.com/xaintobas](https://xaintobas.github.io/qrcode/)
