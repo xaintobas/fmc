@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
 *, 
 *::after, 
 *::before {
@@ -9,8 +19,12 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
+
+
+
+
 
 
 .attribution { 
