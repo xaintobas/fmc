@@ -38,6 +38,18 @@ h1 {
   line-height: 2.8rem;
 }
 
+h3 {
+  color: var(--White);
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+h4 {
+  color: var(--Soft-Pink);
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
 p {
   font-size: 1.7rem;
   line-height: 2.2rem;
@@ -77,6 +89,32 @@ p {
 }
 
 /* CARDS */
+
+.card {
+  background-color: var(--Very-Dark-Magenta);
+  border-radius: 8px;
+  padding: 2.5rem;
+}
+
+.customer__details {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.customer__image {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.customer__review {
+  color: var(--White);
+  font-weight: 300;
+  font-size: 1.7rem;
+}
+
+
+
 
 
 
