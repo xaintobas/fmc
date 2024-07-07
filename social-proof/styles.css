@@ -20,9 +20,15 @@ html {
 
 body {
   font-family: "League Spartan", sans-serif;
-  padding: 2rem;
+  padding: 2rem 1rem;
   background: url(images/bg-pattern-top-mobile.svg) no-repeat, url(images/bg-pattern-bottom-mobile.svg) no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%, 100% 100%;
+  background-position-x: -5rem, 40rem;
+  background-position-y: -40rem, 0rem;
+}
+
+.all-content {
+  width: 100%;
 }
 
 main {
@@ -69,28 +75,27 @@ p {
 
 /* CONTENT */
 
-.top-secton {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.top-secton, 
+.cards {
+  min-width: 320px;
+  max-width: 330px;
 }
 
 .content {
   text-align: center;
-  max-width: 310px;
-}
-
-.card, 
-.ratings {
-  min-width: 280px;
-  max-width: 300px;
+  width: 100%;
+  padding: 0 2rem;
 }
 
 /* RATINGS */
 
 .ratings {
   margin-bottom: 2rem;
+}
+
+.ratings, 
+.card {
+  margin: 0 2rem;
 }
 
 .rating {
@@ -124,7 +129,7 @@ p {
 .card {
   background-color: var(--Very-Dark-Magenta);
   border-radius: 8px;
-  padding: 2.5rem;
+  padding: 3rem;
 }
 
 .customer__details {
@@ -171,68 +176,5 @@ p {
     background-position-y: -30rem, 10rem;
   }
 
-  .r2 {
-    margin: 0 -2rem;
-  }
-
-  main {
-    min-width: 800px;
-    max-width: 910px;
-  }
-
-  .top-secton {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 5rem;
-  }
-
-  .content {
-    text-align: left;
-    width: 100%;
-    max-width: 390px;
-  }
-
-  h1 {
-    max-width: 300px;
-    font-size: 4rem;
-    line-height: 3.5rem;
-  }
-
-  .ratings {
-    min-width: 50%;
-  }
-
-  .rating {
-    background-color: var(--Light-Grayish-Magenta);
-    margin: 1.5rem 0;
-    border-radius: 5px;
-    text-align: center;
-    padding: .5rem 0;
-    width: 100%;
-  }
-
-  .rating {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding-left: 2rem;
-  }
-
-  .stars {
-    margin-top: .8rem;
-  }
-
-  .cards {
-    display: flex;
-    flex-direction: row;
-    gap:2.5rem;
-  }
-
-  .card {
-  min-width: 300px;
-  max-width: 480px;
-}
 
 }
