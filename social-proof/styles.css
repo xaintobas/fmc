@@ -21,6 +21,8 @@ html {
 body {
   font-family: "League Spartan", sans-serif;
   padding: 2rem;
+  background: url(images/bg-pattern-top-mobile.svg) no-repeat, url(images/bg-pattern-bottom-mobile.svg) no-repeat;
+  background-size: 100% 100%;
 }
 
 main {
@@ -163,6 +165,10 @@ p {
     align-items: center;
     padding: 10rem 2rem;
     gap: 2rem;
+    background: url(images/bg-pattern-top-desktop.svg) no-repeat, url(images/bg-pattern-bottom-desktop.svg) no-repeat;
+    background-size: 100% 100%, 100% 100%;
+    background-position-x: -20rem, 5rem;
+    background-position-y: -30rem, 10rem;
   }
 
   .r2 {
