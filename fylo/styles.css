@@ -70,7 +70,14 @@ main {
   border-radius: 1rem;
   text-transform: uppercase;
   position: absolute;
-  right: 100px;
+  right: 70px;
+  left: 70px;
+}
+
+.balance__gig {
+  color: black;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 /* Image and Icons */
