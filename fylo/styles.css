@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-  --main-background: hsl(233, 47%, 7%);
-  --card-background: hsl(244, 38%, 16%);
-  --accent: hsl(277, 64%, 61%);
-  --heading: hsl(0, 0%, 100%);
-  --paragraph: hsla(0, 0%, 100%, 0.75);
-  --stat-headings: hsla(0, 0%, 100%, 0.6);
+  --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+  --Pale-Blue: hsl(243, 100%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --Very-Dark-Blue: hsl(229, 57%, 11%);
 }
 
 *,
@@ -18,10 +19,131 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
   background: var(--main-background);
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(images/bg-mobile.png) no-repeat;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 325px;
+}
+
+/* sections */
+
+.first, .second {
+  background-color: var(--Dark-Blue);
+  padding: 3rem;
+}
+
+.first {
+  border-radius: 1rem 7rem 1rem 1rem;
+}
+
+.second {
+  border-radius: 1rem 1rem 1rem 1rem;
+  position: relative;
+}
+
+.description {
+  text-align: center;
+}
+
+.balance {
+  background-color: white;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  right: 100px;
+}
+
+/* Image and Icons */
+
+.logo {
+  height: 4rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.icon-bg {
+  background-color: var(--Very-Dark-Blue);
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 1rem;
+}
+
+/* Typography */
+
+p {
+  color: rgb(216, 227, 238);
+  font-size: 1.4rem;
+}
+
+.gig {
+  color: white;
+  font-weight: 500;
+}
+
+.usage {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Progess */
+
+.progress {
+  border-radius: 2rem;
+  background-color: var(--Very-Dark-Blue);
+  padding: 2px;
+  height: 15px;
+
+}
+
+.circle {
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+}
+
+.progress__length {
+  width: 70%;
+  height: 100%;
+  background: hsl(6, 100%, 80%);
+  border-radius: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: .1rem .1rem;
+}
+
+
+
+
+
+
