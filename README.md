@@ -21,6 +21,9 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Single Price](#single-price)
   - [Social Proof](#social-proof)
   - [Blog Card](#blog-card)
+  - [Fylo data storage component](#Fylo-data-storage-component)
+  - [Huddle landing page](#Huddle-landing-page)
+  - [Huddle LP with alt ft blocks](#Huddle-LP-with-alt-ft-blocks)
 - [Author](#author)
 
 ### QR Code Component
@@ -102,6 +105,21 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 <img src="./blog-card/screenshot.png" alt="Blog Card Component" width="400">
 - Live Site: [Blog Card](https://xaintobas.github.io/fmc/blog-card/)
+
+### Fylo data storage component
+
+<img src="./fylo/screenshot.png" alt="Fylo data storage component" width="400">
+- Live Site: [Fylo data storage component](https://xaintobas.github.io/fmc/fylo/)
+
+### Huddle landing page
+
+<img src="./huddle-lp/screenshot.png" alt="Huddle landing page" width="400">
+- Live Site: [Huddle landing page](https://xaintobas.github.io/fmc/huddle-lp/)
+
+### Huddle LP with alt ft blocks
+
+<img src="./huddle-lpg/screenshot.png" alt="Huddle landing page with alternating feature blocks" width="400">
+- Live Site: [Huddle LP with alt ft blocks](https://xaintobas.github.io/fmc/huddle-lpg/)
 
 ## Author
 
