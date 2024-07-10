@@ -35,6 +35,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap:5rem;
 }
 
@@ -50,6 +51,7 @@ main {
 .second {
   background-color: var(--Dark-Blue);
   padding: 4rem;
+  width: 100%;
   min-width: 30rem;
 }
 
@@ -121,7 +123,7 @@ p {
 }
 
 .progress__length {
-  width: 70%;
+  width: 85%;
   height: 100%;
   background: var(--Gradient);
   border-radius: inherit;
@@ -176,6 +178,87 @@ p {
   font-weight: 600;
 }
 
+/* Screen Sizes above 767px */
+
+@media screen and (min-width:800px) {
+
+  body {
+    background-image: url(images/bg-desktop.png);
+    background-size: contain;
+    background-position: bottom;
+    background-color: var(--Very-Dark-Blue);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap:5rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    min-width: 70rem;
+  }
+
+  .first {
+    max-width: 6rem; 
+  }
+
+  .second {
+    align-self: flex-end;
+    max-width: 50rem; 
+  }
+
+  p {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .second {
+    max-height: 15rem;
+  }
+
+  .balance {
+    padding: .5rem;
+    position: absolute;
+    border-radius: 1rem 1rem 0 1rem;
+    top: -20%;
+    left: 50%;
+    transform: translateX(0%);
+  }
+
+  .balance::after {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    position: fixed;
+    bottom: -25%;
+    right: 0%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+  }
+  
+  .balance__gig { 
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: .5rem;
+  }
+
+  .balance__left {
+    transform: translateY(.5rem);
+    color: gray;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+}
 
 /* Animations */
 
@@ -213,6 +296,6 @@ p {
   }
 
   100% {
-    width: 70%;
+    width: 85%;
   }
 }
