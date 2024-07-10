@@ -61,7 +61,10 @@ main {
 
 .second {
   border-radius: 1rem 1rem 1rem 1rem;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* position: relative; */
 }
 
 /* Image and Icons */
@@ -113,6 +116,7 @@ p {
   background-color: var(--Very-Dark-Blue);
   padding: 2px;
   height: 15px;
+  position: relative;
 }
 
 .progress__end {
@@ -132,6 +136,7 @@ p {
   align-items: center;
   padding: .1rem .1rem;
   animation: progressBar 5s ease-out ;
+  position: relative;
 }
 
 .usage {
@@ -144,8 +149,9 @@ p {
   padding: .5rem;
   position: absolute;
   border-radius: 1rem;
+  top: 55%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 100%);
   min-width: 20rem;
   text-transform: uppercase;
   display: flex;
@@ -223,14 +229,18 @@ p {
   .second {
     max-height: 15rem;
   }
+  
+  .progress, .progress__length {
+    position: relative;
+  }
 
   .balance {
     padding: .5rem;
     position: absolute;
     border-radius: 1rem 1rem 0 1rem;
-    top: -20%;
-    left: 43%;
-    transform: translateX(0%);
+    top: -100%;
+    left: 75%;
+    transform: translate(-50%, -160%); 
   }
 
   .balance::after {
