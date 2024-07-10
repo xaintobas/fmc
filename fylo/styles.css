@@ -66,6 +66,7 @@ main {
 
 .logo {
   margin-bottom: 3rem;
+  animation: moveInLeft 1s ease-in;
 }
 
 .icons {
@@ -80,6 +81,7 @@ main {
   display: flex;
   gap: 1.5rem;
   align-items: center;
+  animation: moveInBottom .5s ease-out;
 }
 
 /* Typography */
@@ -90,12 +92,16 @@ main {
 }
 
 p {
-  color: rgb(193, 191, 191);
-  font-size: 1.4rem;
+  color: rgb(229, 226, 226);
+  font-size: 1.3rem;
   font-weight: 300;
   letter-spacing: .13rem;
   margin: 1.5rem .5rem;
   text-align: center;
+}
+
+.p-ani {
+  animation: moveInBottom .5s ease-out;
 }
 
 /* Progess */
@@ -123,6 +129,7 @@ p {
   justify-content: flex-end;
   align-items: center;
   padding: .1rem .1rem;
+  animation: progressBar 2s ;
 }
 
 .usage {
@@ -167,4 +174,47 @@ p {
   color: hsl(6, 100%, 87%); 
   text-decoration: none;
   font-weight: 600;
+}
+
+
+/* Animations */
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-3rem);
+  }
+
+  80% {
+    transform: translateX(.5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes progressBar {
+  0% {
+    opacity: 0;
+    transform: translateX(-3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
