@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+  --Gradient: linear-gradient(to right,  hsl(6, 100%, 80%), hsl(335, 100%, 65%));
   --Pale-Blue: hsl(243, 100%, 93%);
   --Grayish-Blue: hsl(229, 7%, 55%);
   --Dark-Blue: hsl(228, 56%, 26%);
@@ -11,6 +11,8 @@
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -21,39 +23,38 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   background: var(--main-background);
-  margin: 0;
+  padding: 3rem;
+  background: url(images/bg-mobile.png) no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(images/bg-mobile.png) no-repeat;
+  height: 95vh;
 }
 
 main {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 3rem;
-  margin: 0;
-  padding: 2rem 1rem;
+  gap:5rem;
 }
+
+/* sections */
 
 .container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 325px;
 }
 
-/* sections */
-
-.first, .second {
+.first, 
+.second {
   background-color: var(--Dark-Blue);
-  padding: 3rem;
+  padding: 4rem;
+  min-width: 30rem;
 }
 
 .first {
-  border-radius: 1rem 7rem 1rem 1rem;
+  border-radius: 1rem 10rem 1rem 1rem;
 }
 
 .second {
@@ -61,64 +62,40 @@ main {
   position: relative;
 }
 
-.description {
-  text-align: center;
-}
-
-.balance {
-  background-color: white;
-  border-radius: 1rem;
-  text-transform: uppercase;
-  position: absolute;
-  right: 70px;
-  left: 70px;
-}
-
-.balance__gig {
-  color: black;
-  font-weight: 700;
-  font-size: 3rem;
-}
-
 /* Image and Icons */
 
 .logo {
-  height: 4rem;
+  margin-bottom: 3rem;
 }
 
-.icon {
+.icons {
   display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 2rem;
+  gap: 1.5rem;
 }
 
-.icon-bg {
+.icon--bg {
   background-color: var(--Very-Dark-Blue);
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
+  padding: 1.2rem;
   border-radius: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
 }
 
 /* Typography */
 
-p {
-  color: rgb(216, 227, 238);
-  font-size: 1.4rem;
-}
-
-.gig {
+.highlight {
   color: white;
-  font-weight: 500;
+  font-weight: 600;
 }
 
-.usage {
-  display: flex;
-  justify-content: space-between;
+p {
+  color: rgb(193, 191, 191);
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: .13rem;
+  margin: 1.5rem .5rem;
+  text-align: center;
 }
 
 /* Progess */
@@ -128,20 +105,19 @@ p {
   background-color: var(--Very-Dark-Blue);
   padding: 2px;
   height: 15px;
-
 }
 
-.circle {
+.progress__end {
   background-color: white;
-  height: 10px;
-  width: 10px;
-  border-radius: 10px;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
 }
 
 .progress__length {
   width: 70%;
   height: 100%;
-  background: hsl(6, 100%, 80%);
+  background: var(--Gradient);
   border-radius: inherit;
   display: flex;
   justify-content: flex-end;
@@ -149,8 +125,46 @@ p {
   padding: .1rem .1rem;
 }
 
+.usage {
+  display: flex;
+  justify-content: space-between;
+}
 
+.balance {
+  background-color: white;
+  padding: .5rem;
+  position: absolute;
+  border-radius: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 20rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.balance__gig {
+  color: black;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: .5rem;
+}
 
+.balance__left {
+  transform: translateY(.5rem);
+  color: gray;
+  font-weight: 600;
+}
 
+.attribution { 
+  font-size: 1.4rem; 
+  text-align: center; 
+  color: white;
+}
 
+.attribution a { 
+  color: hsl(6, 100%, 87%); 
+  text-decoration: none;
+  font-weight: 600;
+}

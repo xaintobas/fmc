@@ -9,33 +9,42 @@
 </head>
 <body>
 <main>
+
   <div class="container">
+    
     <section class="first">
       <img src="images/logo.svg" alt="" class="logo">
-      <div class="icon">
-        <span class="icon-bg"><img src="images/icon-document.svg" alt=""></span>
-        <span class="icon-bg"><img src="images/icon-folder.svg" alt=""></span>
-        <span class="icon-bg"><img src="images/icon-upload.svg" alt=""></span>
+      <div class="icons">
+        <span class="icon--bg">
+          <img src="images/icon-document.svg" alt="" class="icon">
+        </span>
+        <span class="icon--bg">
+          <img src="images/icon-folder.svg" alt="" class="icon">
+        </span>
+        <span class="icon--bg">
+          <img src="images/icon-upload.svg" alt="" class="icon">
+        </span>
       </div>
     </section>
 
     <section class="second">
-      <p class="description">You’ve used <span class="gig">815 GB</span> of your storage</p>
+      <p>You’ve used <span class="highlight">815 GB</span> of your storage</p>
       <div class="progress">
-        <div value="75" max="100" class="progress__length">
-          <div class="circle"></div>
+        <div class="progress__length">
+          <div class="progress__end"></div>
         </div>
       </div>
       <div class="usage">
-        <p>0 GB</p>
-        <p>1000 GB</p>
+        <p class="highlight">0GB</p>
+        <P class="highlight">1000GB</P>
       </div>
       <div class="balance">
-        <p><span class="balance__gig">185 GB</span> Left</p>
+        <p class="balance__gig">185</p>
+        <p class="balance__left">GB Left</p>
       </div>
     </section>
   </div>
-
+  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
