@@ -129,7 +129,7 @@ p {
   justify-content: flex-end;
   align-items: center;
   padding: .1rem .1rem;
-  animation: progressBar 2s ;
+  animation: progressBar 5s ease-out ;
 }
 
 .usage {
@@ -209,12 +209,10 @@ p {
 
 @keyframes progressBar {
   0% {
-    opacity: 0;
-    transform: translateX(-3rem);
+    width: 0;
   }
 
   100% {
-    opacity: 1;
-    transform: translateX(0);
+    width: 70%;
   }
 }
