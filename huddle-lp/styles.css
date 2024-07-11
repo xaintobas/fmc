@@ -9,6 +9,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -32,23 +34,59 @@ main {
   align-items: center;
 }
 
-.continer {
+.container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 5rem;
   justify-content: center;
   align-items: center;
 }
 
-.header {}
+.header {
+  align-self: flex-start;
+}
 
 .header__logo {
-  width: 100%
+  width: 12rem;
+}
+
+.illustration__img {
+  width: 100%;
 }
 
 
 
+/* Typography */
 
+h1, p {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+  margin: 2rem 0;
+}
+
+/* Button */
+
+.btn:link {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  font-size: 1.4rem;
+  max-width: 20rem;
+}
 
 
 
