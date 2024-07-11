@@ -85,27 +85,31 @@ p {
   padding: 1rem 1.5rem;
   border-radius: 10rem;
   font-size: 1.4rem;
+  box-shadow: 0 1rem 1rem hsl(257, 38%, 40%);
+  color: var(--Violet);
 }
 
 /* Icon */
 
 .icons {
   display: flex;
-  gap: 2rem;
+  gap: 1.4rem;
 }
 
 .icon {
   font-size: 1.5rem;
-  padding: 1rem;
   width: 3rem;
-  height: 3.5rem;
-  border: 1px solid white;
+  height: 3rem;
+  border: 1px solid rgb(213, 210, 210);
   border-radius: 5rem;
+  text-align: center;
+  padding: .4rem;
 }
 
 .fa {
-  font-size: 1.5rem;
-  color: white;
+  font-size: 1.3rem;
+  color: rgb(213, 210, 210);
+  font-weight: 700;
 }
 
 .attribution { 
@@ -119,3 +123,5 @@ p {
   text-decoration: none;
   font-weight: 800;
 }
+
+
