@@ -89,6 +89,24 @@ p {
   color: var(--Violet);
 }
 
+.btn::after {
+  content: "";
+  display: block;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.btn:link:hover::after {
+  content: "";
+  display: block;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
 /* Icon */
 
 .icons {
@@ -104,6 +122,11 @@ p {
   border-radius: 5rem;
   text-align: center;
   padding: .4rem;
+  cursor: pointer;
+}
+
+.icon:hover {
+  animation: moveUp 1s ease-in-out;
 }
 
 .fa {
@@ -124,4 +147,12 @@ p {
   font-weight: 800;
 }
 
-
+@keyframes moveUp {
+  0% {
+    transform: translateY(-.1rem);
+  }
+  
+  100% {
+    transform: translateY(0);
+  }
+}
