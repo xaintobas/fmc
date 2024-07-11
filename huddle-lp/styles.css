@@ -40,6 +40,8 @@ main {
   gap: 5rem;
   justify-content: center;
   align-items: center;
+  min-width: 28rem;
+  max-width: 28.5rem;
 }
 
 .header {
@@ -85,7 +87,6 @@ p {
   padding: 1rem 1.5rem;
   border-radius: 10rem;
   font-size: 1.4rem;
-  max-width: 20rem;
 }
 
 
