@@ -17,12 +17,34 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  padding: 3rem;
+  background-image: url(images/bg-mobile.svg);
+  background-position:top;
+  background-size: cover;
+  background-color: var(--Violet);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
 
+.continer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
 
+.header {}
 
-
+.header__logo {
+  width: 100%
+}
 
 
 
