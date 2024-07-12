@@ -168,7 +168,6 @@ p {
   body {
     background-image: url(images/bg-desktop.svg);
     background-size: cover;
-    height: 100vh;
   }
   
   main {
