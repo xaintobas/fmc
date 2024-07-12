@@ -116,6 +116,7 @@ p {
 
 .icons {
   display: flex;
+  justify-content: center;
   gap: 1.4rem;
   width: 100%;
 }
@@ -138,6 +139,11 @@ p {
   border: 1px solid white;
   line-height: 3.5rem;
   border-radius: 5rem;
+}
+
+.fa:hover {
+  color: var(--Soft-Magenta);
+  border: 1px solid var(--Soft-Magenta);
 }
 
 /* Footer */
