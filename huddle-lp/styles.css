@@ -170,7 +170,7 @@ p {
 
 @media screen and (min-width:768px) {
   body {
-    background-image: url(images/bg-mobile.svg);
+    background-image: url(images/bg-desktop.svg);
     background-size: cover;
     height: 100vh;
   }
