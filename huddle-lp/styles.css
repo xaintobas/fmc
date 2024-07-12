@@ -105,6 +105,7 @@ p {
   color: var(--Violet);
   transition: all .5s;
   width: 20rem;
+  outline: none;
 }
 
 .btn:hover {
