@@ -19,13 +19,16 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  padding: 3rem;
+  padding: 2rem;
   background-image: url(images/bg-mobile.svg);
   background-repeat: no-repeat;
   background-position:top;
   background-size: contain;
   background-color: var(--Violet);
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -38,25 +41,27 @@ main {
   max-width: 28.5rem;
 }
 
+/* Header */
+
+header {
+  align-self: flex-start;
+}
+
+.logo {
+  width: 17rem;
+}
+
+/* Text Block */
+
 .container {
   display: flex;
   flex-direction: column;
   gap: 5rem;
   justify-content: center;
   align-items: center;
-  min-width: 28rem;
-  max-width: 28.5rem;
 }
 
-.header {
-  align-self: flex-start;
-}
-
-.header__logo {
-  width: 12rem;
-}
-
-.illustration__img {
+.illustration {
   width: 100%;
 }
 
