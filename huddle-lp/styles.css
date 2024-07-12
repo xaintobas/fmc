@@ -22,13 +22,14 @@ body {
   padding: 2rem;
   background-image: url(images/bg-mobile.svg);
   background-repeat: no-repeat;
-  background-position:top;
+  background-position:c;
   background-size: contain;
   background-color: var(--Violet);
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 main {
@@ -48,7 +49,8 @@ header {
 }
 
 .logo {
-  width: 17rem;
+  width: 12rem;
+  margin-bottom: 4rem;
 }
 
 /* Text Block */
@@ -86,10 +88,6 @@ p {
 
 /* Button */
 
-.text-block a {
-
-}
-
 .btn {
   text-decoration: none;
   text-align: center;
@@ -101,14 +99,6 @@ p {
   box-shadow: 0 1rem 1rem hsl(257, 38%, 40%);
   color: var(--Violet);
   transition: all .5s;
-}
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  background-color: white;
-  transform: scale(2);
-  opacity: 1;
 }
 
 .btn:hover {
