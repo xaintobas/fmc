@@ -184,7 +184,8 @@ p {
     flex-direction: row;
     gap: 5rem;
     min-width: 70rem;
-    max-width: 80rem;
+    max-width: 100rem;  
+    margin: 3rem auto;
   }
 
   .illustration, 
