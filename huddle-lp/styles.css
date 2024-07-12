@@ -117,6 +117,7 @@ p {
 .icons {
   display: flex;
   gap: 1.4rem;
+  width: 100%;
 }
 
 .icon {
@@ -130,7 +131,6 @@ p {
 .fa {
   font-size: 1.3rem;
   color: rgb(213, 210, 210);
-  font-weight: 700;
   display: inline-block;
   width: 4rem;
   height: 4rem;
@@ -139,6 +139,8 @@ p {
   line-height: 3.5rem;
   border-radius: 5rem;
 }
+
+/* Footer */
 
 .attribution { 
   font-size: 1.4rem; 
@@ -153,7 +155,6 @@ p {
 }
 
 
-
 @media screen and (min-width:768px) {
   body {
     background-image: url(images/bg-desktop.svg);
@@ -165,17 +166,45 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    min-width: 75rem;
+    max-width: 100%;
   }
 
   .container {
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    justify-content: center;
-    align-items: center;
     min-width: 70rem;
     max-width: 80rem;
+  }
+
+  .illustration, 
+  .text-block {
+    width: 50%;
+  }
+
+  h1, p {
+    text-align: left;
+    color: white;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+
+  .button {
+    display: flex;
+    justify-content: left;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
