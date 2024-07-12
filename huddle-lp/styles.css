@@ -25,7 +25,6 @@ body {
   background-position:c;
   background-size: contain;
   background-color: var(--Violet);
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +49,6 @@ header {
 
 .logo {
   width: 12rem;
-  margin-bottom: 4rem;
 }
 
 /* Text Block */
@@ -61,6 +59,7 @@ header {
   gap: 5rem;
   justify-content: center;
   align-items: center;
+  margin: 5rem auto;
 }
 
 .illustration {
@@ -88,17 +87,24 @@ p {
 
 /* Button */
 
+.button {
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
   text-decoration: none;
   text-align: center;
-  display: block;
+  display: inline-block;
   background-color: white;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 10rem;
+  width: 10rem;
   font-size: 1.6rem;
   box-shadow: 0 1rem 1rem hsl(257, 38%, 40%);
   color: var(--Violet);
   transition: all .5s;
+  width: 20rem;
 }
 
 .btn:hover {
@@ -114,13 +120,6 @@ p {
 }
 
 .icon {
-  font-size: 1.5rem;
-  width: 3rem;
-  height: 3rem;
-  border: 1px solid rgb(213, 210, 210);
-  border-radius: 5rem;
-  text-align: center;
-  padding: .4rem;
   cursor: pointer;
 }
 
@@ -132,6 +131,13 @@ p {
   font-size: 1.3rem;
   color: rgb(213, 210, 210);
   font-weight: 700;
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  border: 1px solid white;
+  line-height: 3.5rem;
+  border-radius: 5rem;
 }
 
 .attribution { 
