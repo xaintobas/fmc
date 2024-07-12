@@ -34,6 +34,8 @@ main {
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  min-width: 28rem;
+  max-width: 28.5rem;
 }
 
 .container {
@@ -159,6 +161,10 @@ p {
   }
   
   main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
   }
 
   .container {
@@ -167,8 +173,8 @@ p {
     gap: 5rem;
     justify-content: center;
     align-items: center;
-    min-width: 28rem;
-    max-width: 28.5rem;
+    min-width: 70rem;
+    max-width: 80rem;
   }
 }
 
