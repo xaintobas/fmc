@@ -27,3 +27,22 @@ body {
 }
 
 /* Typography */
+
+
+
+
+
+
+/* Footer */
+
+.attribution { 
+  font-size: 1.4rem; 
+  text-align: center;
+  margin: 2rem;
+}
+
+.attribution a { 
+  color: white; 
+  text-decoration: none;
+  font-weight: 800;
+}
