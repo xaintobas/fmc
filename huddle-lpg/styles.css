@@ -15,6 +15,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -25,12 +27,94 @@ body {
   font-family: "Inter", sans-serif;
   background: var(--main-background);
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
+
 /* Typography */
+
+h1, h2 {
+  font-family: var(--Heading-font);
+}
+
+p {
+  font-family: var(--Body-font);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero__paragraph {
+  font-size: 1.7rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: var(--Grayish-Blue);
+}
+
+.footer__top p{
+  color: white;
+  line-height: 3rem;
+  font-size: 1.7rem;
+}
+
+.footer__top a{
+  color: white;
+  line-height: 3rem;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer__bottom p {
+  font-size: 1.3rem;
+  color: white;
+}
+
+/* Buttons */
+
+.btn {
+  font-size: 1.6rem;
+  padding: 1.5rem 4rem;
+  border-radius: 5rem;
+  display: inline-block;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.233);
+  font-weight: 700;
+  transition: all .5s;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+}
+
+.btn-white:hover {
+  color: grey;
+}
+
+.btn-pink {
+  background-color: var(--Pink);
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: hsl(322, 100%, 73%);
+  color: white;
+}
+
+
+
+
 
 
 
