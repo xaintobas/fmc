@@ -29,7 +29,9 @@ body {
   margin: 0 auto;
 }
 
-
+main {
+  margin: 0;
+}
 /* Typography */
 
 h1, h2 {
@@ -42,21 +44,25 @@ p {
 
 h1 {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .hero__paragraph {
-  font-size: 1.7rem;
+  font-size: 2rem;
   line-height: 3rem;
+  color: black;
+  margin: 2rem 0;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2rem 0;
 }
 
 .card p {
-  font-size: 1.5rem;
-  line-height: 2.4rem;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
   color: var(--Grayish-Blue);
 }
 
@@ -84,13 +90,21 @@ a {
 /* Buttons */
 
 .btn {
-  font-size: 1.6rem;
-  padding: 1.5rem 4rem;
   border-radius: 5rem;
   display: inline-block;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.233);
+  box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.141);
   font-weight: 700;
   transition: all .5s;
+}
+
+.btn--small {
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
+}
+
+.btn--big {
+  font-size: 1.6rem;
+  padding: 1.5rem 7rem;
 }
 
 .btn-white {
@@ -105,6 +119,7 @@ a {
 .btn-pink {
   background-color: var(--Pink);
   color: white;
+  margin: 2rem 0;
 }
 
 .btn-pink:hover {
@@ -112,16 +127,94 @@ a {
   color: white;
 }
 
+/* Images */
 
+.header__logo {
+  height: 2rem;
+}
 
+.footer__logo {
+  width: 20rem;
+}
 
+.hero__image {
+  width: 100%;
+}
 
+.card__image {
+  width: 100%;
+}
 
+/* Layouts */
 
+.hero {
+  background-color: #c9f0ff41;
+  padding: 3rem 3rem;
+  margin-bottom: 10rem;
+}
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.hero__main {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background-image: url(images/bg-hero-mobile.svg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin: 8rem 0 0 0;
+}
+
+.card {
+  margin: 5.5rem 3rem;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.148);
+  padding: 5rem;
+  text-align: center;
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.image-block {
+  padding: 1rem 1.5rem;
+}
+
+.callout {
+  margin: 15rem 3rem -10rem 3rem;
+  background-color: white;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.075);
+  padding: 5rem;
+  text-align: center;
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.index2 {
+  z-index: 222222;
+}
 
 /* Footer */
+
+.footer {
+  background-color: var(--Very-Dark-Cyan);
+  padding: 10rem 3rem 3rem 3rem;
+  z-index: 1;
+}
+
+
+
+
+
 
 .attribution { 
   font-size: 1.4rem; 
