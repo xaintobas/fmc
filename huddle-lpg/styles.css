@@ -51,7 +51,7 @@ h1 {
   font-size: 2rem;
   line-height: 3rem;
   color: black;
-  margin: 2rem 0;
+  margin: 2rem 0 4.5rem 0;
 }
 
 h2 {
@@ -59,6 +59,11 @@ h2 {
   font-weight: 600;
   margin: 2rem 0;
 }
+
+.callout h2 {
+  font-size: 1.7rem;
+}
+
 
 .card p {
   font-size: 1.7rem;
@@ -104,7 +109,7 @@ a {
 
 .btn--big {
   font-size: 1.6rem;
-  padding: 1.5rem 7rem;
+  padding: 1.5rem 4rem;
 }
 
 .btn-white {
@@ -119,7 +124,6 @@ a {
 .btn-pink {
   background-color: var(--Pink);
   color: white;
-  margin: 2rem 0;
 }
 
 .btn-pink:hover {
@@ -188,32 +192,23 @@ a {
 }
 
 .callout {
-  margin: 15rem 3rem -10rem 3rem;
+  margin: 10rem 3rem -7rem 3rem;
   background-color: white;
-  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.075);
-  padding: 5rem;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.487);
+  padding: 2rem 1rem 3rem 1rem;
   text-align: center;
-  display: flex;
-  gap: 5rem;
-  flex-direction: column;
   border-radius: 2rem;
+  z-index: 2;
+  position: relative;
 }
 
-.index2 {
-  z-index: 222222;
-}
 
 /* Footer */
 
 .footer {
   background-color: var(--Very-Dark-Cyan);
-  padding: 10rem 3rem 3rem 3rem;
-  z-index: 1;
+  padding: 15rem 3rem 3rem 3rem;
 }
-
-
-
-
 
 
 .attribution { 
