@@ -24,8 +24,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  background: var(--main-background);
+  font-family: "Open Sans", sans-serif;
   margin: 0 auto;
 }
 
@@ -82,6 +81,7 @@ h2 {
   color: rgb(201, 200, 200);
   line-height: 3rem;
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 a {
@@ -156,6 +156,9 @@ a {
   background-color: #c9f0ff41;
   padding: 2rem 1rem 1rem 1rem;
   margin-bottom: 5rem;
+  background-image: url(images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
@@ -171,7 +174,6 @@ a {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  background-image: url(images/bg-hero-mobile.svg);
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
@@ -180,7 +182,7 @@ a {
 
 .card {
   margin: 5.5rem 1.5rem;
-  box-shadow: 0rem 0rem 2rem rgba(127, 126, 126, 0.205);
+  box-shadow: 0rem 0rem 2rem rgba(185, 185, 185, 0.205);
   padding: 2rem 3rem; 
   text-align: center;
   display: flex;
@@ -194,7 +196,7 @@ a {
 }
 
 .callout {
-  margin: 10rem 1.5rem -7rem 1.5rem;
+  margin: 10rem 1.5rem -5rem 1.5rem;
   background-color: white;
   box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.487);
   padding: 3.5rem 1rem 3rem 1rem;
@@ -202,19 +204,22 @@ a {
   border-radius: 2rem;
   z-index: 1;
   position: relative;
+  align-self: center;
 }
-
 
 /* Footer */
 
 .footer {
   background-color: var(--Very-Dark-Cyan);
-  padding: 15rem 3rem 3rem 3rem;
+  padding: 10rem 3rem 3rem 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__logo {
   fill: white;
-  height: 6rem;
+  height: 3rem;
 }
 
 .footer__info {
@@ -241,21 +246,42 @@ a {
   gap: 1rem;
 }
 
-.fa-brands {
-  color: rgb(201, 200, 200);
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 1.5rem;
-  line-height: 3rem;
-  height: 2rem;
-  width: 2rem;
+.fa {
   border: .1rem solid rgb(201, 200, 200);
   border-radius: 5rem;
+  color: rgb(201, 200, 200);
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  transition: all .5s;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.fa:hover {
+  border: .1rem solid var(--Pink);
+  color: var(--Pink);
 }
 
 .footer__bottom {
   text-align: center;
   margin: 3rem 0;
+}
+
+li {
+  list-style: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 .attribution { 
@@ -266,7 +292,134 @@ a {
 }
 
 .attribution a { 
-  color: var(--Pink); 
+  color: white;
   text-decoration: none;
   font-weight: 600;
+  transition: all .5s;
+}
+
+.attribution a:hover { 
+  color: var(--Pink); 
+}
+
+
+@media screen and (min-width:768px) {
+    
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__paragraph {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    color: black;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .cards {
+    max-width: 100rem;
+  }
+
+ 
+  /* Buttons */
+
+  .btn--small {
+    font-size: 1.5rem;
+  }
+  
+  .btn--big {
+    font-size: 1.7rem; 
+  }
+
+  /* Images */
+
+  .header__logo {
+    height: 2.5rem; 
+  }
+  
+  /* Layouts */
+
+  .hero {
+    padding: 2rem 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__main {
+    text-align: left;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    background-image: url(images/bg-hero-desktop.svg);
+  }
+
+  .card{
+    text-align: left;
+    align-items: center;
+    gap: 7rem;
+    padding: 2rem 2rem 2rem 5rem;
+    margin: 2rem 2rem;
+  }
+
+  .reverse-card {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 1.5rem;
+  }
+
+  .main-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1.5rem;
+  } 
+
+  .callout {
+    width: 70rem;
+  }
+
+  .callout h2 {
+    font-size: 2.5rem; 
+  }
+
+  .footer__elements,
+  .hero__elements {
+    max-width: 100rem;
+  }
+  
+  .footer__logo {
+    align-self: flex-start;
+    fill: white;
+  }
+
+  .footer__top {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .footer__sec1 {
+    grid-column:  1 / 3;
+    margin-right: 5rem;
+  }
+
+  .footer__sec2 {
+    grid-column: 3/4;
+  }
+
+  .footer__sec3 {
+    grid-column: 4/5;
+  }
+
+  .footer__sec4 {
+    grid-column: 5/6;
+  }
+
+  .copyright {
+    text-align: right;
+  }
+
 }
