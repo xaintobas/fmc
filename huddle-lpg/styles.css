@@ -312,11 +312,20 @@ li a:hover {
     align-items: center;
   }
 
+  .hero {
+    padding: 7rem 1rem 1rem 1rem; 
+  }
+  
+  .text-block {
+    width: 80%;
+  }
+
+  .image-block {
+    width: 100%;
+  }
+  
   .hero__paragraph {
-    font-size: 1.6rem;
-    line-height: 2.3rem;
-    color: black;
-    margin: 2rem 0 2rem 0;
+    font-size: 1.3rem;
   }
 
   .cards {
