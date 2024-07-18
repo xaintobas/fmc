@@ -24,6 +24,8 @@ Thanks for checking out my front-end coding challenge. This repository contains 
   - [Fylo data storage component](#Fylo-data-storage-component)
   - [Huddle landing page](#Huddle-landing-page)
   - [Huddle LP with alt ft blocks](#Huddle-LP-with-alt-ft-blocks)
+  - [Clipboard Landing Page](#clipboard-landing-page)
+  - [Fylo Landing Page with two column layout](#fylo-landing-page)
 - [Author](#author)
 
 ### QR Code Component
@@ -120,6 +122,16 @@ Thanks for checking out my front-end coding challenge. This repository contains 
 
 <img src="./huddle-lpg/screenshot.png" alt="Huddle landing page with alternating feature blocks" width="400">
 - Live Site: [Huddle LP with alt ft blocks](https://xaintobas.github.io/fmc/huddle-lpg/)
+
+### Clipboard Landing Page
+
+<img src="./clipboard-lp/screenshot.png" alt="Clipboard Landing Page]" width="400">
+- Live Site: [Clipboard Landing Page](https://xaintobas.github.io/fmc/clipboard-lp/)
+
+### Fylo Landing Page
+
+<img src="./fylo-lp/screenshot.png" alt="Fylo Landing Page with two column layout" width="400">
+- Live Site: [Fylo Landing Page with two column layout](https://xaintobas.github.io/fmc/fylo-lp/)
 
 ## Author
 
