@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+--Purple: hsl(259, 100%, 65%);
+--LightRed: hsl(0, 100%, 67%);
+--White: hsl(0, 0%, 100%);
+--OffWhite: hsl(0, 0%, 94%);
+--LightGrey: hsl(0, 0%, 86%);
+--SmokeyGrey: hsl(0, 1%, 44%);
+--OffBlack: hsl(0, 0%, 8%);
+
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--OffWhite);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; 
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TYPOGRAPGY */
+
+.old {
+  color: var(--Purple);
+}
+
+.value {
+  font-size: 5rem;
+  margin-top: -2rem;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.title{
+  display: inline-block;
+}
+
+/* LAYOUT */
+
+main {
+  background-color: var(--White);
+  padding: 3rem 2rem;
+  margin: 0 2rem;
+  min-width: 320px;
+  border-radius: 2rem 2rem 10rem 2rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.072);
+}
+
+.input-container {
+  border-bottom: 1px solid var(--LightGrey);
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.output-container {
+  padding-top: 7rem;
+}
+
+.icon-container {
+  display: inline-block;
+  position: absolute;
+  bottom: -3rem;
+  left: 40%;
+  padding: 1.5rem;
+  outline: none;
+  border: 0;
+  background-color: var(--Purple);
+  border-radius: 5rem;
+  cursor: pointer; 
+}
+
+label {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* INPUT */
+
+input {
+  border: 1px solid var(--LightGrey);
+  outline: none;
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  color: var(--OffBlack);
+  font-weight: 800;
+  max-width: 9rem;
+  border-radius: .7rem;
+  margin-right: 1rem;
+  display: block;
+  margin-left: -.3rem;
+}
+
+/* ICON */
+
+.icon {
+  height: 2rem;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
